@@ -9,7 +9,11 @@
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
            
  <!-- <bean id="vehicle" class="com.shalini.Telusko.Car"> </bean> -->        
- <context:component-scan base-package="com.shalini.Telusko"></context:component-scan>
+<!--  <context:component-scan base-package="com.shalini.Telusko"></context:component-scan>-->
+<bean id="tyre" class="com.shalini.Telusko.Tyre">
+	<property name="brand" value="MRF"></property>
+</bean>
+
      
      
      
