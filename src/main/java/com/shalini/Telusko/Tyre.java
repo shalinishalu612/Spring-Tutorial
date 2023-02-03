@@ -2,12 +2,18 @@ package com.shalini.Telusko;
 
 public class Tyre {
 	private String brand;
+	
 
-	public String getBrand() {
-		return brand;
-	}
-
-	public void setBrand(String brand) {
+//	public String getBrand() {
+//		return brand;
+//	}
+//
+//	public void setBrand(String brand) {
+//		this.brand = brand;
+//	}
+	
+	public Tyre(String brand) {
+		super();
 		this.brand = brand;
 	}
 
@@ -15,4 +21,6 @@ public class Tyre {
 	public String toString() {
 		return "Tyre [brand=" + brand + "]";
 	}
+
+
 }
