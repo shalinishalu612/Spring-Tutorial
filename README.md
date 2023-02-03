@@ -1,3 +1,3 @@
-Spring Framework:
- XML Based Conf
- XML+Annotation Based Conf
+Spring Framework :
+ 1 XML Based Conf
+ 2 XML+Annotation Based Conf
