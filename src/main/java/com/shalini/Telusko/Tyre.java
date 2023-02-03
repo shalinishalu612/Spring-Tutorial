@@ -1,5 +1,8 @@
 package com.shalini.Telusko;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
 	private String brand;
 	
@@ -12,15 +15,18 @@ public class Tyre {
 //		this.brand = brand;
 //	}
 	
-	public Tyre(String brand) {
-		super();
-		this.brand = brand;
+	public Tyre() {
+		
+		
 	}
+
 
 	@Override
 	public String toString() {
-		return "Tyre [brandy=" + brand + "]";
+		return "Tyre object value";
 	}
+
+	
 
 
 }
