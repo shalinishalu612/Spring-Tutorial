@@ -14,7 +14,7 @@
 
 <bean id="tyre" class="com.shalini.Telusko.Tyre">
 	<!--<property name="brand" value="MRF"></property> -->
-	<constructor-arg value="CEAT"></constructor-arg>
+	<constructor-arg value="CEAT TYRE"></constructor-arg>
 </bean>
 
      
